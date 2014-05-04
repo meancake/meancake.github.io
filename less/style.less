@@ -10,34 +10,16 @@
 @import '@{startup-basePath}common-files/less/helper.less';
 
 /* header */
-@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-2.less';
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-1.less';
 
 /* content */
-@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-10.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-4.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-25.less';
 
 /* footer */
-@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-1.less';
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-6.less';
 
-.content-10 {
-    padding-top: 100px;
+.content-4, .footer-6 {
+    padding-top: 80px;
     padding-bottom: 80px;
-}
-.logos {
-    background: #f8f8f8;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    @media (max-width: 767px) {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    @media (max-width: 480px) {
-        display: none;
-    }
-    > .container {
-        display: table;
-        > div {
-            display: table-cell;
-            text-align: center;
-        }
-    }
 }
